@@ -47,6 +47,28 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- dependency used for XLSX file format -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.0.1</version>
+</dependency>
+
+<!-- dependency used for XLS older file format
+     (added for information) -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>4.1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.millij/poi-object-mapper -->
+<dependency>
+    <groupId>io.github.millij</groupId>
+    <artifactId>poi-object-mapper</artifactId>
+    <version>1.0.0</version>
+</dependency>
 	</dependencies>
 
 	<build>
@@ -57,5 +79,6 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 
 </project>

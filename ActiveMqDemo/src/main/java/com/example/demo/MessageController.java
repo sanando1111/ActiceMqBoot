@@ -27,4 +27,10 @@ public class MessageController {
 		return new ResponseEntity<>(message, HttpStatus.OK);
 	}
 
+	@GetMapping("message/processfile")
+	public String processFile() {
+		ProcessFile fileProcess = new ProcessFile();
+		fileProcess.processFile();
+		return "Success";
+	}
 }

@@ -12,4 +12,5 @@ public class MessageListener {
 	public void listen(String message) {
 		System.out.println("Message in queue:" + message);
 	}
+
 }
